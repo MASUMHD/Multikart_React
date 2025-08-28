@@ -8,7 +8,8 @@
     "oldPrice": 6.0,
     "rating": 5,
     "reviews": 10,
-    "category": "FIRST AID SUPPLIES"
+    "category": "FIRST AID SUPPLIES",
+    "description": "Gravity Defying Cream is a premium skincare product designed to nourish, hydrate, and rejuvenate the skin. With a rich, lightweight formula, it helps reduce the appearance of fine lines and wrinkles, leaving your skin soft and glowing. Suitable for all skin types, it absorbs quickly without leaving any greasy residue. The cream contains natural extracts and essential vitamins to protect and repair damaged skin, improve elasticity, and maintain a youthful complexion. Regular use promotes smooth, healthy, and radiant skin. This cream is perfect for daily use, providing long-lasting moisture and a refreshing feel throughout the day."
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "oldPrice": 6.0,
     "rating": 5,
     "reviews": 10,
-    "category": "FIRST AID SUPPLIES"
+    "category": "FIRST AID SUPPLIES",
+    "description": "Precision Injection is a high-quality medical solution designed for accurate dosage and administration. Ideal for healthcare professionals and home use, it ensures safe and precise delivery of liquid medications. Crafted from premium materials, it reduces the risk of contamination and provides a smooth, controlled flow. Each injection is calibrated for accuracy, making it suitable for various treatments and applications. The ergonomic design ensures comfortable handling, while the reliable mechanism guarantees consistent performance. Precision Injection is essential for maintaining proper treatment protocols and achieving optimal medical outcomes. Safe, efficient, and durable for everyday use."
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "oldPrice": 13.0,
     "rating": 5,
     "reviews": 10,
-    "category": "FIRST AID SUPPLIES"
+    "category": "FIRST AID SUPPLIES",
+    "description": "Refreshing Aloe Bliss is a soothing gel enriched with natural aloe vera extracts to calm, hydrate, and protect the skin. Perfect for sunburn relief, dry patches, or irritated skin, it provides instant cooling and long-lasting moisture. Its lightweight formula absorbs quickly, leaving skin soft and refreshed without stickiness. Aloe Bliss contains vitamins and antioxidants to support skin regeneration, enhance elasticity, and reduce redness or inflammation. Regular application can help maintain healthy, nourished, and radiant skin. Suitable for all skin types, this gel offers a natural, gentle, and effective way to care for your skin daily."
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "oldPrice": null,
     "rating": 5,
     "reviews": 10,
-    "category": "FIRST AID SUPPLIES"
+    "category": "FIRST AID SUPPLIES",
+    "description": "Throat Lozenges provide fast and soothing relief for sore throats, coughs, and irritation. Formulated with natural herbal extracts and menthol, these lozenges calm discomfort and promote a fresh, comfortable feeling. Ideal for home, office, or travel, they are easy to carry and consume whenever needed. With a pleasant taste, they help reduce coughing, moisturize the throat, and support overall throat health. Suitable for daily use, Throat Lozenges are an essential item for anyone seeking quick, effective, and natural relief. Enjoy smooth, refreshed, and comforted throats anytime with these reliable lozenges."
   },
   {
     "id": 5,
@@ -52,32 +56,32 @@
     "oldPrice": 10.0,
     "rating": 5,
     "reviews": 10,
-    "category": "FIRST AID SUPPLIES"
+    "category": "FIRST AID SUPPLIES",
+    "description": "Capsule Convenience Reusable Capsules are designed for easy and safe storage of vitamins, supplements, or medications. Each capsule is crafted to maintain freshness and prevent contamination. Ideal for home, travel, or office use, they simplify daily health routines while ensuring correct dosage. The durable and lightweight design makes them portable, convenient, and hygienic. Regular use can improve organization and adherence to supplement schedules. These capsules are made from safe, non-toxic materials that are easy to clean and maintain. Capsule Convenience ensures reliable storage and access to essential health supplements, enhancing overall well-being."
   },
-  
-
-
   {
     "id": 6,
     "name": "Tender Touch Baby",
     "discount": "15%",
     "image": "./Ultikar images//imgi_17_6 (1).png",
-    "price": 12.80,
+    "price": 12.8,
     "oldPrice": null,
     "rating": 5,
     "reviews": 10,
-    "category": "ORTHOPEDIC SUPPORTS"
+    "category": "ORTHOPEDIC SUPPORTS",
+    "description": "Tender Touch Baby Lotion is specially formulated to gently nourish and protect delicate baby skin. Enriched with natural extracts and essential vitamins, it hydrates, soothes, and maintains the skin's softness. Ideal for daily use, the lotion provides long-lasting moisture without causing irritation. Its lightweight, fast-absorbing texture leaves the skin smooth and comfortable. Tender Touch Baby promotes healthy skin development and helps prevent dryness, rashes, or sensitivity. Suitable for all babies, it is dermatologically tested and safe for regular application. Keep your baby’s skin soft, refreshed, and healthy with this premium moisturizing solution."
   },
   {
     "id": 7,
     "name": "Alcohol Hand Sanitiser",
     "discount": "18%",
     "image": "./Ultikar images/imgi_18_7.png",
-    "price": 10.20,
+    "price": 10.2,
     "oldPrice": null,
     "rating": 5,
     "reviews": 10,
-    "category": "ORTHOPEDIC SUPPORTS"
+    "category": "ORTHOPEDIC SUPPORTS",
+    "description": "Alcohol Hand Sanitiser provides fast-acting and effective protection against germs, bacteria, and viruses. Its alcohol-based formula ensures thorough cleaning without the need for water. Lightweight and non-sticky, it dries quickly while keeping hands soft and refreshed. Ideal for home, office, travel, or public spaces, this sanitizer ensures hygiene on the go. Regular use helps reduce the risk of infections and maintain personal cleanliness. Enriched with moisturizing agents, it prevents dryness and irritation often caused by frequent sanitizing. Compact, convenient, and highly effective, Alcohol Hand Sanitiser is essential for daily hand care and protection."
   },
   {
     "id": 8,
@@ -88,18 +92,20 @@
     "oldPrice": null,
     "rating": 5,
     "reviews": 10,
-    "category": "ORTHOPEDIC SUPPORTS"
+    "category": "ORTHOPEDIC SUPPORTS",
+    "description": "Luxe Refillable Bottles are elegant, durable, and eco-friendly containers designed for storing beverages, oils, or other liquids. Crafted with high-quality materials, these bottles are leak-proof, easy to clean, and reusable. Ideal for home, travel, or gym use, they combine style and practicality. The secure cap prevents spills, while the sleek design fits conveniently in bags or cup holders. Regular use of these refillable bottles reduces plastic waste, promotes sustainability, and encourages healthy hydration habits. Luxe Refillable Bottles are a practical and stylish solution for environmentally conscious users seeking functionality and aesthetic appeal in everyday life."
   },
   {
     "id": 9,
     "name": "Venusia Max Cream",
     "discount": "23%",
     "image": "./Ultikar images/imgi_20_9.png",
-    "price": 12.60,
-    "oldPrice": 13.80,
+    "price": 12.6,
+    "oldPrice": 13.8,
     "rating": 5,
     "reviews": 10,
-    "category": "ORTHOPEDIC SUPPORTS"
+    "category": "ORTHOPEDIC SUPPORTS",
+    "description": "Venusia Max Cream is a rich moisturizing formula designed to nourish and revitalize dry or sensitive skin. Packed with vitamins, antioxidants, and natural extracts, it supports skin repair and promotes elasticity. Regular application helps reduce fine lines, dryness, and roughness, leaving the skin soft, smooth, and radiant. The cream absorbs quickly without leaving a greasy residue, making it suitable for daily use. Venusia Max Cream protects against environmental damage while maintaining hydration. Suitable for all skin types, it provides long-lasting comfort and skin rejuvenation. Enhance your skincare routine with this premium nourishing cream for healthy, glowing skin."
   },
   {
     "id": 10,
@@ -107,62 +113,70 @@
     "discount": "25%",
     "image": "./Ultikar images/imgi_21_10.png",
     "price": 8.19,
-    "oldPrice": 10.40,
+    "oldPrice": 10.4,
     "rating": 5,
     "reviews": 10,
-    "category": "ORTHOPEDIC SUPPORTS"
+    "category": "ORTHOPEDIC SUPPORTS",
+    "description": "Silken Hand Bliss is a luxurious hand cream designed to deeply hydrate, protect, and soften dry hands. Infused with natural moisturizers and essential vitamins, it restores skin’s smoothness and prevents cracks or roughness. Suitable for frequent handwashing, office, or outdoor activities, this cream absorbs quickly without leaving a sticky feel. Regular use enhances skin texture, providing softness, comfort, and long-lasting nourishment. Silken Hand Bliss promotes healthy-looking hands with a gentle, pleasant fragrance. Perfect for daily application, it ensures hands remain silky, smooth, and protected throughout the day, combining luxury and practical care in one product."
   },
-
-
-
   {
-      "id": 11,
-      "category": "Feature Product",
-      "name": "Surgical Mask",
-      "image": "./Ultikar images/imgi_31_1.png",
-      "price": 1.0,
-      "rating": 4
-    },
-    {
-      "id": 12,
-      "category": "Feature Product",
-      "name": "Surgical Mask",
-      "image": "./Ultikar images/imgi_32_2.png",
-      "price": 1.5,
-      "rating": 4
-    },
-    {
-      "id": 13,
-      "category": "Feature Product",
-      "name": "Surgical Mask",
-      "image": "./Ultikar images/imgi_33_3.png",
-      "price": 1.0,
-      "rating": 4
-    },
-    {
-      "id": 14,
-      "category": "On Sell",
-      "name": "Surgical Mask",
-      "image": "./Ultikar images/imgi_35_7.png",
-      "price": 1.0,
-      "rating": 4
-    },
-    {
-      "id": 15,
-      "category": "On Sell",
-      "name": "Surgical Mask",
-      "image": "./Ultikar images/imgi_36_8.png",
-      "price": 1.5,
-      "rating": 4
-    },
-    {
-      "id": 16,
-      "category": "On Sell",
-      "name": "Surgical Mask",
-      "image": "./Ultikar images/imgi_33_3.png",
-      "price": 1.0,
-      "rating": 4
-    }
-
-
+    "id": 11,
+    "name": "Surgical Mask",
+    "category": "Feature Product",
+    "image": "./Ultikar images/imgi_31_1.png",
+    "price": 1.0,
+    "rating": 4,
+    "reviews": 0,
+    "description": "Surgical Mask is a high-quality protective face covering designed to reduce exposure to airborne particles, dust, and germs. Made from breathable, lightweight materials, it ensures comfort during prolonged wear. Ideal for medical settings, travel, or daily use, it provides reliable protection and safety. The adjustable design fits most face shapes securely without slipping. Regular use helps minimize the spread of bacteria and viruses while maintaining hygiene. Surgical Mask is disposable, easy to use, and ensures a balance of safety, comfort, and convenience for all users, making it a practical essential in health-conscious environments."
+  },
+  {
+    "id": 12,
+    "name": "Surgical Mask",
+    "category": "Feature Product",
+    "image": "./Ultikar images/imgi_32_2.png",
+    "price": 1.5,
+    "rating": 4,
+    "reviews": 0,
+    "description": "Surgical Mask is designed for effective respiratory protection in daily activities, medical procedures, or public environments. Lightweight and breathable, it offers comfort during extended use. Its multi-layered structure filters dust, pollen, and bacteria while preventing contamination. The elastic ear loops and flexible nose bridge ensure a secure fit. Ideal for hospitals, travel, or personal safety, it supports hygiene and health protection. Disposable and convenient, this mask promotes responsible health practices. Surgical Mask combines safety, functionality, and comfort, providing an essential accessory for maintaining personal protection and minimizing health risks effectively in various settings."
+  },
+  {
+    "id": 13,
+    "name": "Surgical Mask",
+    "category": "Feature Product",
+    "image": "./Ultikar images/imgi_33_3.png",
+    "price": 1.0,
+    "rating": 4,
+    "reviews": 0,
+    "description": "Surgical Mask offers reliable protection against germs, dust, and airborne particles. Designed for daily use, it provides comfort, breathability, and a secure fit. The disposable design ensures hygiene and easy handling. Perfect for medical staff, commuters, or travelers, it helps prevent cross-contamination and maintains cleanliness. Lightweight and soft, it reduces discomfort during prolonged wear. Surgical Mask is a practical essential for personal health, safety, and infection control. Its high-quality material and construction deliver effective filtration while ensuring ease of use. Stay protected, safe, and comfortable with this dependable face mask."
+  },
+  {
+    "id": 14,
+    "name": "Surgical Mask",
+    "category": "On Sell",
+    "image": "./Ultikar images/imgi_35_7.png",
+    "price": 1.0,
+    "rating": 4,
+    "reviews": 0,
+    "description": "Surgical Mask is a disposable protective covering designed to minimize exposure to airborne contaminants. Soft, breathable, and lightweight, it ensures comfort for extended wear. The mask features a secure fit with elastic ear loops and a flexible nose bridge, providing a snug seal. Ideal for healthcare professionals, travelers, or everyday use, it helps maintain hygiene and reduce the spread of germs. Regular use supports personal safety and public health. This surgical mask combines protection, convenience, and comfort, making it an essential accessory in medical settings, crowded areas, or daily routines requiring reliable face protection."
+  },
+  {
+    "id": 15,
+    "name": "Surgical Mask",
+    "category": "On Sell",
+    "image": "./Ultikar images/imgi_36_8.png",
+    "price": 1.5,
+    "rating": 4,
+    "reviews": 0,
+    "description": "Surgical Mask provides effective protection against airborne particles, dust, and germs while ensuring comfort during prolonged use. Designed with multi-layered material, it filters harmful particles efficiently. The elastic ear loops and adjustable nose bridge ensure a secure and comfortable fit. Suitable for healthcare, travel, or daily life, it promotes hygiene and safety. Lightweight and breathable, it does not cause discomfort even when worn for extended periods. This disposable mask is convenient, reliable, and essential for minimizing the risk of infection. Surgical Mask is a practical and high-quality solution for personal protection in various environments."
+  },
+  {
+    "id": 16,
+    "name": "Surgical Mask",
+    "category": "On Sell",
+    "image": "./Ultikar images/imgi_33_3.png",
+    "price": 1.0,
+    "rating": 4,
+    "reviews": 0,
+    "description": "Surgical Mask is a protective face mask designed to reduce exposure to bacteria, viruses, and airborne particles. Its lightweight and breathable fabric ensures comfort during long-term use. With secure ear loops and a flexible nose bridge, it provides a snug fit and reliable coverage. Ideal for medical personnel, travelers, and daily activities, it maintains hygiene and prevents contamination. Disposable and easy to use, this mask ensures safety and convenience. Surgical Mask balances protection, functionality, and comfort, making it an essential accessory for maintaining personal health and safeguarding against environmental pollutants effectively in everyday life."
+  }
 ]

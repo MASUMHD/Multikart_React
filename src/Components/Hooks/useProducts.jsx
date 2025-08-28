@@ -7,12 +7,12 @@ const useProducts = () => {
      } = useQuery({
         queryKey: ['products'],
         queryFn: async ()=> {
-            const res = await axios.get("products.json")
+            const res = await axios.get("/products.json")
             return res.data;
         }
      }) 
 
-    return { products, refetch, isLoading, error };
+    return { products: products || [], refetch, isLoading, error };
 };
 
 export default useProducts;

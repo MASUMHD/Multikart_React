@@ -1,5 +1,6 @@
 import { MdChevronLeft, MdChevronRight, MdStar } from "react-icons/md";
 import useProducts from "../Hooks/useProducts";
+import { Link } from "react-router-dom";
 
 const FeatureProduct = () => {
   const { products = [], isLoading, error } = useProducts();
@@ -26,14 +27,19 @@ const FeatureProduct = () => {
 
   const renderProductCard = (product) => (
     <div key={product.id} className="flex items-center p-2">
-      <img
-        src={product.image}
-        alt={product.name}
-        className="w-24 h-24 object-contain"
-      />
+      <Link to={`/product/${product.id}`}>
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-24 h-24 object-contain"
+        />
+      </Link>
+
       <div className="ml-4">
         <div className="flex">{renderStars(product.rating)}</div>
-        <p className="font-semibold text-base mb-1">{product.name}</p>
+        <Link to={`/product/${product.id}`}>
+          <p className="font-semibold hover:text-teal-500 text-base mb-1">{product.name}</p>
+        </Link>
         <p className="text-green-600 font-semibold">
           ${product.price.toFixed(2)}
         </p>

@@ -1,8 +1,9 @@
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {   
   return (
-    <div className="border hover:shadow-lg transition duration-300 p-4 relative ">
+    <div className="border hover:shadow-lg transition duration-300 p-4 relative  ">
       {/* Discount Badge */}
       {product.discount && (
         <span className="absolute top-3 left-3 bg-teal-400 text-white text-xs font-bold px-2 py-1 rounded-full">
@@ -11,16 +12,20 @@ const ProductCard = ({ product }) => {
       )}
 
       {/* Product Image */}
-      <img
-        src={product.image}
-        alt={product.name}
-        className="w-full h-60 object-cover mb-4"
-      />
+      <Link to={`/product/${product.id}`}>
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-60 object-cover mb-4"
+        />
+      </Link>
 
       {/* Product Name */}
-      <h2 className="text-gray-800  text-lg truncate">
-        {product.name}
-      </h2>
+      <Link to={`/product/${product.id}`}>
+        <h2 className="text-gray-800 hover:text-teal-500 text-lg truncate">
+          {product.name}
+        </h2>
+      </Link>
 
       {/* Rating */}
       <div className="flex items-center text-yellow-400 my-1">
