@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 const slides = [
   {
     id: 1,
-    img: "../../../public/imgi_4_Female Doctor Hospital Mask Free PNG (1)-min.png",
+    img: "https://i.postimg.cc/FFbWQV3h/imgi-4-Female-Doctor-Hospital-Mask-Free-PNG-1-min.png",
     subtitle: "Protective Face Mask",
     title: "Put Your Mask To Use To Safeguard Your Family",
     desc: "Wearing a face mask has become an important part of our daily lives. Face masks help protect us and others from spreading germs, especially during times of illness or pandemics.",
@@ -15,7 +15,7 @@ const slides = [
   },
   {
     id: 2,
-    img: "../../../public/imgi_4_Female Doctor Hospital Mask Free PNG (1)-min.png",
+    img: "https://i.postimg.cc/FFbWQV3h/imgi-4-Female-Doctor-Hospital-Mask-Free-PNG-1-min.png",
     subtitle: "Protective Face Mask",
     title: "Stay Safe And Keep Your Loved Ones Protected",
     desc: "Face masks reduce the risk of infections and safeguard people in crowded places. A simple precaution can save lives during uncertain times.",
@@ -23,7 +23,7 @@ const slides = [
   },
   {
     id: 3,
-    img: "../../../public/imgi_4_Female Doctor Hospital Mask Free PNG (1)-min.png",
+    img: "https://i.postimg.cc/FFbWQV3h/imgi-4-Female-Doctor-Hospital-Mask-Free-PNG-1-min.png",
     subtitle: "Protective Face Mask",
     title: "High Quality Mask For Everyday Protection",
     desc: "Our masks are designed with comfort and safety in mind. Protect yourself with built-in nose clips and high-quality ear loops.",
@@ -65,7 +65,7 @@ const Slider = () => {
                 <div className="absolute top-80 left-2 md:left-[690px] hidden lg:flex flex-col items-center">
                   <div className="w-14 h-14 p-2 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
                     <img
-                      src="../../../public/Ultikar images/COVID.png"
+                      src="https://i.postimg.cc/g0Nz5Zss/COVID.png"
                       alt=""
                     />
                   </div>
@@ -89,7 +89,7 @@ const Slider = () => {
                 <div className="absolute top-10 md:top-20 left-2 md:left-10 flex flex-col items-center">
                   <div className="w-14 h-14 p-2 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
                     <img
-                      src="../../../public/Ultikar images/SKIN CARE.png"
+                      src="https://i.postimg.cc/L6n1VHHG/SKIN-CARE.png"
                       alt=""
                     />
                   </div>
@@ -100,7 +100,7 @@ const Slider = () => {
                 <div className="absolute top-14 md:top-40 right-2 md:right-10 flex flex-col items-center">
                   <div className="w-14 h-14 p-2 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
                     <img
-                      src="../../../public/Ultikar images/DIABETIC.png"
+                      src="https://i.postimg.cc/t4G4Vy73/DIABETIC.png"
                       alt=""
                     />
                   </div>

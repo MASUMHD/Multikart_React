@@ -32,7 +32,7 @@ const NavBar = () => {
             {/* Logo */}
             <div className="flex items-center space-x-1">
               <img
-                src="../../../public/Ultikar images/logo.png"
+                src="https://i.postimg.cc/JzKC4WX4/logo.png"
                 alt="Multikart Logo"
                 className="h-8"
               />
@@ -86,7 +86,7 @@ const NavBar = () => {
         }`}
       >
         <div className="p-4 flex items-center justify-between border-b">
-          <img src="../../../public/Ultikar images/logo.png" alt="Multikart Logo" className="h-8" />
+          <img src="https://i.postimg.cc/JzKC4WX4/logo.png" alt="Multikart Logo" className="h-8" />
           <span
             onClick={() => setIsOpen(false)}
             className="cursor-pointer text-2xl"
