@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Gravity Defying Cream",
+    "discount": "10%",
+    "image": "/Ultikar images/Gravity Defying Cream.png",
+    "price": 4.9,
+    "oldPrice": 6.0,
+    "rating": 5,
+    "reviews": 10
+  },
+  {
+    "id": 2,
+    "name": "Precision Injection",
+    "discount": "10%",
+    "image": "/Ultikar images/Precision Injection.png",
+    "price": 4.9,
+    "oldPrice": 6.0,
+    "rating": 5,
+    "reviews": 10
+  },
+  {
+    "id": 3,
+    "name": "Refreshing Aloe Bliss",
+    "discount": "13%",
+    "image": "/Ultikar images/Refreshing Aloe Bliss.png",
+    "price": 10.0,
+    "oldPrice": 13.0,
+    "rating": 5,
+    "reviews": 10
+  },
+  {
+    "id": 4,
+    "name": "Throat Lozenges",
+    "discount": "15%",
+    "image": "/Ultikar images/Throat Lozenges.png",
+    "price": 5.0,
+    "oldPrice": null,
+    "rating": 5,
+    "reviews": 10
+  },
+  {
+    "id": 5,
+    "name": "Capsule Convenience Re...",
+    "discount": "14%",
+    "image": "/Ultikar images/Capsule Convenience.png",
+    "price": 8.9,
+    "oldPrice": 10.0,
+    "rating": 5,
+    "reviews": 10
+  }
+]

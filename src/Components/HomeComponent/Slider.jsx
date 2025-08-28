@@ -1,39 +1,34 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { FiArrowRight } from "react-icons/fi";
-
-// Slider images (you can add 3 different ones if needed)
 const slides = [
   {
     id: 1,
-    // img: "https://i.postimg.cc/xdSJP95t/salider-removebg-preview.png",
     img: "../../../public/imgi_4_Female Doctor Hospital Mask Free PNG (1)-min.png",
     subtitle: "Protective Face Mask",
     title: "Put Your Mask To Use To Safeguard Your Family",
     desc: "Wearing a face mask has become an important part of our daily lives. Face masks help protect us and others from spreading germs, especially during times of illness or pandemics.",
     button: "Discover Now",
   },
-  //   {
-  //     id: 2,
-  //     img: "https://i.postimg.cc/xdSJP95t/salider-removebg-preview.png",
-  //     subtitle: "Protective Face Mask",
-  //     title: "Stay Safe And Keep Your Loved Ones Protected",
-  //     desc: "Face masks reduce the risk of infections and safeguard people in crowded places. A simple precaution can save lives during uncertain times.",
-  //     button: "Discover Now",
-  //   },
-  //   {
-  //     id: 3,
-  //     img: "https://i.postimg.cc/xdSJP95t/salider-removebg-preview.png",
-  //     subtitle: "Protective Face Mask",
-  //     title: "High Quality Mask For Everyday Protection",
-  //     desc: "Our masks are designed with comfort and safety in mind. Protect yourself with built-in nose clips and high-quality ear loops.",
-  //     button: "Discover Now",
-  //   },
+  {
+    id: 2,
+    img: "../../../public/imgi_4_Female Doctor Hospital Mask Free PNG (1)-min.png",
+    subtitle: "Protective Face Mask",
+    title: "Stay Safe And Keep Your Loved Ones Protected",
+    desc: "Face masks reduce the risk of infections and safeguard people in crowded places. A simple precaution can save lives during uncertain times.",
+    button: "Discover Now",
+  },
+  {
+    id: 3,
+    img: "../../../public/imgi_4_Female Doctor Hospital Mask Free PNG (1)-min.png",
+    subtitle: "Protective Face Mask",
+    title: "High Quality Mask For Everyday Protection",
+    desc: "Our masks are designed with comfort and safety in mind. Protect yourself with built-in nose clips and high-quality ear loops.",
+    button: "Discover Now",
+  },
 ];
 
 const Slider = () => {
@@ -62,14 +57,17 @@ const Slider = () => {
                   {slide.desc}
                 </p>
 
-                <button className="relative bg-teal-400 text-white font-semibold px-8 py-3  ">
+                <button className="relative bg-teal-400 text-white hover:shadow-lg hover:text-black hover:font-normal font-semibold px-8 py-3  ">
                   Discover Now
                   <span className="absolute inset-0 border-2 border-teal-400 translate-x-[6px] translate-y-[6px] "></span>
                 </button>
 
-                <div className="absolute top-64 left-2 md:left-[750px] flex flex-col items-center">
-                  <div className="w-14 h-14 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
-                    😷
+                <div className="absolute top-80 left-2 md:left-[690px] hidden lg:flex flex-col items-center">
+                  <div className="w-14 h-14 p-2 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
+                    <img
+                      src="../../../public/Ultikar images/COVID.png"
+                      alt=""
+                    />
                   </div>
                   <p className="text-sm mt-2 font-medium">
                     Built In Nose <br /> Bridge Clip
@@ -88,19 +86,25 @@ const Slider = () => {
                 </div>
 
                 {/* Floating Labels */}
-                <div className="absolute top-10 left-2 md:left-10 flex flex-col items-center">
-                  <div className="w-14 h-14 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
-                    😷
+                <div className="absolute top-10 md:top-20 left-2 md:left-10 flex flex-col items-center">
+                  <div className="w-14 h-14 p-2 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
+                    <img
+                      src="../../../public/Ultikar images/SKIN CARE.png"
+                      alt=""
+                    />
                   </div>
-                  <p className="text-sm mt-2 font-medium">
-                    Built In Nose <br /> Bridge Clip
+                  <p className="text-xs md:text-sm mt-2 font-medium">
+                    Soft & Breathable <br /> Material
                   </p>
                 </div>
-                <div className="absolute top-20 right-2 md:right-10 flex flex-col items-center">
-                  <div className="w-14 h-14 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
-                    👂
+                <div className="absolute top-14 md:top-40 right-2 md:right-10 flex flex-col items-center">
+                  <div className="w-14 h-14 p-2 rounded-full border-2 border-teal-500 flex items-center justify-center text-teal-500 text-2xl">
+                    <img
+                      src="../../../public/Ultikar images/DIABETIC.png"
+                      alt=""
+                    />
                   </div>
-                  <p className="text-sm mt-2 font-medium">
+                  <p className="text-xs md:text-sm mt-2 font-medium">
                     High Quality <br /> Ear Loops
                   </p>
                 </div>
