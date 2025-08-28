@@ -9,7 +9,13 @@ const TopCategory = () => {
   const categories = ["FIRST AID SUPPLIES", "ORTHOPEDIC SUPPORTS"];
 
   if (isLoading) return <p className="text-center">Loading...</p>;
-  if (error) return <p className="text-center text-red-500">Error loading products</p>;
+  if (error)
+    return <p className="text-center text-red-500">Error loading products</p>;
+
+  //   filter
+  const filteredProducts = products.filter(
+    (product) => product.category === activeCategory
+  );
 
   return (
     <div className=" mt-16 mb-8 px-4">
@@ -41,8 +47,8 @@ const TopCategory = () => {
       {/* Products */}
       <section className="px-4 lg:px-24 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />  
+          {filteredProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>

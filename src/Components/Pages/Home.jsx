@@ -1,6 +1,10 @@
 import Slider from "../HomeComponent/Slider";
 import Category from "../HomeComponent/Category";
 import TopCategory from "../HomeComponent/TopCategory";
+import Banner from "../HomeComponent/Banner";
+import FeatureProduct from "../HomeComponent/FeatureProduct";
+import LatestBlog from "../HomeComponent/LatestBlog";
+import Shipping from "../HomeComponent/Shipping";
 
 const Home = () => {
   return (
@@ -8,7 +12,10 @@ const Home = () => {
       <Slider />
       <Category />
       <TopCategory />
-      <h1 className="mt-6 ">Welcome to the Home Page</h1>
+      <Banner />
+      <FeatureProduct />
+      <LatestBlog />
+      <Shipping />
     </div>
   );
 };

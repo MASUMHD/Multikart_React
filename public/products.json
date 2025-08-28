@@ -7,7 +7,8 @@
     "price": 4.9,
     "oldPrice": 6.0,
     "rating": 5,
-    "reviews": 10
+    "reviews": 10,
+    "category": "FIRST AID SUPPLIES"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "price": 4.9,
     "oldPrice": 6.0,
     "rating": 5,
-    "reviews": 10
+    "reviews": 10,
+    "category": "FIRST AID SUPPLIES"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "price": 10.0,
     "oldPrice": 13.0,
     "rating": 5,
-    "reviews": 10
+    "reviews": 10,
+    "category": "FIRST AID SUPPLIES"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "price": 5.0,
     "oldPrice": null,
     "rating": 5,
-    "reviews": 10
+    "reviews": 10,
+    "category": "FIRST AID SUPPLIES"
   },
   {
     "id": 5,
@@ -47,6 +51,118 @@
     "price": 8.9,
     "oldPrice": 10.0,
     "rating": 5,
-    "reviews": 10
-  }
+    "reviews": 10,
+    "category": "FIRST AID SUPPLIES"
+  },
+  
+
+
+  {
+    "id": 6,
+    "name": "Tender Touch Baby",
+    "discount": "15%",
+    "image": "./Ultikar images//imgi_17_6 (1).png",
+    "price": 12.80,
+    "oldPrice": null,
+    "rating": 5,
+    "reviews": 10,
+    "category": "ORTHOPEDIC SUPPORTS"
+  },
+  {
+    "id": 7,
+    "name": "Alcohol Hand Sanitiser",
+    "discount": "18%",
+    "image": "./Ultikar images/imgi_18_7.png",
+    "price": 10.20,
+    "oldPrice": null,
+    "rating": 5,
+    "reviews": 10,
+    "category": "ORTHOPEDIC SUPPORTS"
+  },
+  {
+    "id": 8,
+    "name": "Luxe Refillable Bottles",
+    "discount": "20%",
+    "image": "./Ultikar images/imgi_19_8.png",
+    "price": 3.49,
+    "oldPrice": null,
+    "rating": 5,
+    "reviews": 10,
+    "category": "ORTHOPEDIC SUPPORTS"
+  },
+  {
+    "id": 9,
+    "name": "Venusia Max Cream",
+    "discount": "23%",
+    "image": "./Ultikar images/imgi_20_9.png",
+    "price": 12.60,
+    "oldPrice": 13.80,
+    "rating": 5,
+    "reviews": 10,
+    "category": "ORTHOPEDIC SUPPORTS"
+  },
+  {
+    "id": 10,
+    "name": "Silken Hand Bliss",
+    "discount": "25%",
+    "image": "./Ultikar images/imgi_21_10.png",
+    "price": 8.19,
+    "oldPrice": 10.40,
+    "rating": 5,
+    "reviews": 10,
+    "category": "ORTHOPEDIC SUPPORTS"
+  },
+
+
+
+  {
+      "id": 11,
+      "category": "Feature Product",
+      "name": "Surgical Mask",
+      "image": "./Ultikar images/imgi_31_1.png",
+      "price": 1.0,
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "category": "Feature Product",
+      "name": "Surgical Mask",
+      "image": "./Ultikar images/imgi_32_2.png",
+      "price": 1.5,
+      "rating": 4
+    },
+    {
+      "id": 13,
+      "category": "Feature Product",
+      "name": "Surgical Mask",
+      "image": "./Ultikar images/imgi_33_3.png",
+      "price": 1.0,
+      "rating": 4
+    },
+    {
+      "id": 14,
+      "category": "On Sell",
+      "name": "Surgical Mask",
+      "image": "./Ultikar images/imgi_35_7.png",
+      "price": 1.0,
+      "rating": 4
+    },
+    {
+      "id": 15,
+      "category": "On Sell",
+      "name": "Surgical Mask",
+      "image": "./Ultikar images/imgi_36_8.png",
+      "price": 1.5,
+      "rating": 4
+    },
+    {
+      "id": 16,
+      "category": "On Sell",
+      "name": "Surgical Mask",
+      "image": "./Ultikar images/imgi_33_3.png",
+      "price": 1.0,
+      "rating": 4
+    }
+
+
 ]
