@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { FaMinus, FaPlus, FaStar } from "react-icons/fa";
 import useProducts from "../Hooks/useProducts";
 import ReviewsSection from "./ReviewsSection";
+import Swal from "sweetalert2";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -14,6 +15,14 @@ const ProductDetails = () => {
 
   const product = products.find((p) => p.id === parseInt(id));
   if (!product) return <p className="text-center py-10">Product not found!</p>;
+
+  const handleClick = () => {
+    Swal.fire({
+      title: "Success!",
+      icon: "success",
+      draggable: true,
+    });
+  };
 
   return (
     <div className="">
@@ -76,10 +85,16 @@ const ProductDetails = () => {
               </button>
             </div>
 
-            <button className="bg-teal-500 text-white px-6 py-2 rounded-sm hover:bg-teal-600 transition">
+            <button
+              onClick={handleClick}
+              className="bg-teal-500 text-white px-6 py-2 rounded-sm hover:bg-teal-600 transition"
+            >
               Add to Cart
             </button>
-            <button className="bg-black text-white px-6 py-2 rounded-sm hover:bg-gray-800 transition">
+            <button
+              onClick={handleClick}
+              className="bg-black text-white px-6 py-2 rounded-sm hover:bg-gray-800 transition"
+            >
               Buy Now
             </button>
           </div>

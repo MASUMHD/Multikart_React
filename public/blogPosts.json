@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.postimg.cc/nh5vkBJ8/imgi-38-2.png",
+    "date": "25 January 2018",
+    "title": "Lorem Ipsum Dolor Sit Consectetur Adipiscing Elit,",
+    "author": "John Dio",
+    "comments": 2,
+    "description": "This article explores the fundamentals of modern design principles, focusing on both aesthetic appeal and functionality. It highlights how careful planning, attention to detail, and creative vision can transform ordinary spaces into extraordinary experiences. Readers will gain insights into balancing color schemes, typography, and layouts to create visually appealing content. Additionally, the article emphasizes the importance of user experience, accessibility, and responsive design to ensure content is engaging and accessible across various platforms. Perfect for beginners and professionals seeking practical advice in design and content creation."
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/ZRLB1y15/imgi-37-1.png",
+    "date": "25 January 2018",
+    "title": "Lorem Ipsum Dolor Sit Consectetur Adipiscing Elit,",
+    "author": "John Dio",
+    "comments": 2,
+    "description": "In this post, we delve into effective strategies for creating impactful and memorable visual content. The discussion covers principles of layout, composition, and visual hierarchy, ensuring that key elements stand out while maintaining harmony. The article also touches on the role of color psychology, typography, and imagery to convey messages more effectively. By integrating these techniques, designers can craft pieces that resonate with audiences and enhance communication. Readers will find practical tips and examples that can be applied to various projects, from social media graphics to website design, improving overall creativity and effectiveness."
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/3Jq45hbm/imgi-39-3.png",
+    "date": "25 January 2018",
+    "title": "Lorem Ipsum Dolor Sit Consectetur Adipiscing Elit,",
+    "author": "John Dio",
+    "comments": 2,
+    "description": "This comprehensive guide examines advanced techniques in content creation and design optimization. It emphasizes the integration of innovative tools, software, and creative workflows that streamline the process while maintaining high-quality output. Topics include responsive layouts, interactive elements, and visual storytelling methods that engage audiences effectively. Additionally, the article discusses the importance of consistency, branding, and adapting designs for different devices and platforms. Ideal for designers, marketers, and content creators, this piece provides actionable insights that enhance project efficiency, audience engagement, and overall design quality, making it a valuable resource for professionals."
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/ZRLB1y15/imgi-37-1.png",
+    "date": "25 January 2018",
+    "title": "Lorem Ipsum Dolor Sit Consectetur Adipiscing Elit,",
+    "author": "John Dio",
+    "comments": 2,
+    "description": "In this post, we delve into effective strategies for creating impactful and memorable visual content. The discussion covers principles of layout, composition, and visual hierarchy, ensuring that key elements stand out while maintaining harmony. The article also touches on the role of color psychology, typography, and imagery to convey messages more effectively. By integrating these techniques, designers can craft pieces that resonate with audiences and enhance communication. Readers will find practical tips and examples that can be applied to various projects, from social media graphics to website design, improving overall creativity and effectiveness."
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/3Jq45hbm/imgi-39-3.png",
+    "date": "25 January 2018",
+    "title": "Lorem Ipsum Dolor Sit Consectetur Adipiscing Elit,",
+    "author": "John Dio",
+    "comments": 2,
+    "description": "This comprehensive guide examines advanced techniques in content creation and design optimization. It emphasizes the integration of innovative tools, software, and creative workflows that streamline the process while maintaining high-quality output. Topics include responsive layouts, interactive elements, and visual storytelling methods that engage audiences effectively. Additionally, the article discusses the importance of consistency, branding, and adapting designs for different devices and platforms. Ideal for designers, marketers, and content creators, this piece provides actionable insights that enhance project efficiency, audience engagement, and overall design quality, making it a valuable resource for professionals."
+  }
+]
