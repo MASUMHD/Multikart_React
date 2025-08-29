@@ -29,9 +29,9 @@ const About = () => {
   return (
     <div className="">
       <div className="bg-[#e8f7fc] py-12 md:py-14 text-center px-4">
-        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
-          About Us
-        </h2>
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          About <span className="text-teal-500">Us</span>
+        </h1>
          <p className="text-gray-700 text-sm md:text-lg max-w-2xl mx-auto">
           Reach us out for inquiries, support, or<br className="hidden md:block" /> feedback,  and we’ll give you<br className="hidden md:block" />
           prompt response.

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import  { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import {
   FiMenu,
   FiX,
@@ -12,6 +12,7 @@ import AddToCard from "./AddToCard";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", path: "/" },
@@ -65,9 +66,36 @@ const NavBar = () => {
             </nav>
 
             {/* Icons */}
-            <div className="flex items-center space-x-5">
+            <div className="flex items-center space-x-5 relative">
+              {/* Search */}
               <FiSearch className="cursor-pointer text-2xl hover:text-teal-500" />
-              <FiSettings className="cursor-pointer text-2xl hover:text-teal-500" />
+
+              {/* Settings with Dropdown */}
+              <div className="relative">
+                <FiSettings
+                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                  className="cursor-pointer text-2xl hover:text-teal-500"
+                />
+
+                {/* Dropdown */}
+                {isDropdownOpen && (
+                  <div className="absolute right-0 mt-2 w-40 bg-white shadow-lg rounded-lg border z-50">
+                    <ul className="py-2">
+                      <Link to="/login">
+                        <p className="block px-4 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">
+                          Login
+                        </p>
+                      </Link>
+                      <Link to="/register">
+                        <p className="block px-4 py-2 text-gray-700 hover:bg-teal-50 hover:text-teal-600">
+                          Register
+                        </p>
+                      </Link>
+                    </ul>
+                  </div>
+                )}
+              </div>
+
               {/* Cart Icon */}
               <div
                 onClick={() => setIsCartOpen(true)}
@@ -75,7 +103,7 @@ const NavBar = () => {
               >
                 <FiShoppingCart className="text-2xl" />
                 <span className="absolute -top-2 -right-2 bg-teal-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
-                  2
+                  3
                 </span>
               </div>
             </div>

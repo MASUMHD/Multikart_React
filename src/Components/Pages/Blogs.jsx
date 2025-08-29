@@ -17,14 +17,16 @@ const Blogs = () => {
       <div className="bg-[#e8f7fc] py-16 px-6 md:px-20 bg-[url('https://i.postimg.cc/pTkq3cf6/imgi-11-blogs4-removebg-preview.png')] bg-no-repeat bg-right bg-contain">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <div className="text-center md:text- p-6 ">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
-             Our's Blogs
-            </h2>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our's <span className="text-teal-500">Blogs</span>
+            </h1>
             <p className="text-gray-600 text-base leading-relaxed">
               Discover insights, guides, and industry updates on innovative
               disposable medical products. From selecting the right gloves to
-              understanding material <br className="hidden md:block" /> quality, our blogs help you make informed
-              decisions for <br className="hidden md:block" /> safer and more efficient healthcare practices.
+              understanding material <br className="hidden md:block" /> quality,
+              our blogs help you make informed decisions for{" "}
+              <br className="hidden md:block" /> safer and more efficient
+              healthcare practices.
             </p>
           </div>
         </div>

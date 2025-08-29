@@ -10,6 +10,7 @@ import Blogs from "../Pages/Blogs";
 import BlogDetails from "../Share page/BlogDetails";
 import Contact from "../Pages/Contact";
 import About from "../Pages/About";
+import Feature from "../Pages/Feature";
 
 export const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />
+      },
+      {
+        path: "/feature",
+        element: <Feature />
       }
     ]
   },
