@@ -10,6 +10,7 @@ const ProductCard = ({ product }) => {
       draggable: true,
     });
   };
+  
   return (
     <div className="border hover:shadow-lg transition duration-300 p-4 relative  ">
       {/* Discount Badge */}
