@@ -39,14 +39,16 @@ const NavBar = () => {
             </span>
 
             {/* Logo */}
-            <div className="flex items-center space-x-1">
-              <img
-                src="https://i.postimg.cc/JzKC4WX4/logo.png"
-                alt="Multikart Logo"
-                className="h-8"
+            <Link to="/">
+              <div className="flex items-center space-x-1 cursor-pointer">
+                <img
+                  src="https://i.postimg.cc/JzKC4WX4/logo.png"
+                  alt="Multikart Logo"
+                  className="h-8"
               />
             </div>
-          </div>
+          </Link>
+        </div>
 
           {/* Nav links & icons */}
           <div className="flex items-center space-x-16 text-gray-600">
