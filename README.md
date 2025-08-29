@@ -1,12 +1,29 @@
-# React + Vite
+# 🛍️ Multikart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Multikart** হলো একটি ই-কমার্স ওয়েব অ্যাপ্লিকেশন যা React + Vite ব্যবহার করে তৈরি করা হয়েছে।  
+এখানে ইউজাররা সহজে প্রোডাক্ট ব্রাউজ, কার্টে যোগ এবং অর্ডার করতে পারবে।
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+- React + Vite
+- Tailwind CSS
+- React Router
+- LocalStorage / API (data store এর জন্য)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/multikart.git
+
+# Go inside the project folder
+cd multikart
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
