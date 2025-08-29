@@ -1,17 +1,7 @@
-import { useMemo, useState } from "react";
-import {
-  FiX,
-  FiTrash2,
-  FiEdit2,
-  FiMinus,
-  FiPlus,
-  FiTruck,
-} from "react-icons/fi";
+import { FiX, FiTrash2, FiEdit2, FiMinus, FiPlus } from "react-icons/fi";
 
 const AddToCard = ({ isOpen, setIsOpen }) => {
-  const FREE_SHIPPING_TARGET = 57.7;
-
-  const mockItems = [
+  const cart = [
     {
       id: 1,
       name: "Cream",
@@ -35,33 +25,6 @@ const AddToCard = ({ isOpen, setIsOpen }) => {
     },
   ];
 
-  const [items, setItems] = useState(mockItems);
-
-  const subTotal = useMemo(
-    () => items.reduce((s, it) => s + it.price * it.qty, 0),
-    [items]
-  );
-
-  const leftForFreeShip = Math.max(0, FREE_SHIPPING_TARGET - subTotal);
-  const progress =
-    FREE_SHIPPING_TARGET === 0
-      ? 100
-      : Math.min(100, (subTotal / FREE_SHIPPING_TARGET) * 100);
-
-  const inc = (id) =>
-    setItems((prev) =>
-      prev.map((it) => (it.id === id ? { ...it, qty: it.qty + 1 } : it))
-    );
-  const dec = (id) =>
-    setItems((prev) =>
-      prev.map((it) =>
-        it.id === id ? { ...it, qty: Math.max(1, it.qty - 1) } : it
-      )
-    );
-  const removeItem = (id) =>
-    setItems((prev) => prev.filter((it) => it.id !== id));
-  const clearCart = () => setItems([]);
-
   return (
     <>
       {/* Overlay */}
@@ -81,7 +44,7 @@ const AddToCard = ({ isOpen, setIsOpen }) => {
         {/* Header */}
         <div className="px-5 sm:px-6 py-4 border-b flex items-center justify-between">
           <h3 className="text-2xl font-semibold text-gray-900">
-            My Cart <span className="text-gray-700">({items.length})</span>
+            My Cart <span className="text-gray-700">(3)</span>
           </h3>
           <button
             onClick={() => setIsOpen(false)}
@@ -91,59 +54,16 @@ const AddToCard = ({ isOpen, setIsOpen }) => {
           </button>
         </div>
 
-        {/* Free shipping */}
-        <div className="px-5 sm:px-6 py-4 border-b">
-          <p className="text-gray-700">
-            {leftForFreeShip > 0 ? (
-              <>
-                Spend{" "}
-                <span className="font-semibold text-teal-600">
-                  ${leftForFreeShip.toFixed(2)}
-                </span>{" "}
-                More And Enjoy Free Shipping!
-              </>
-            ) : (
-              <span className="font-semibold text-teal-600">
-                You’ve unlocked Free Shipping!
-              </span>
-            )}
-          </p>
-          <div className="mt-3">
-            <div className="h-2.5 bg-gray-200 rounded-full">
-              <div
-                className="h-2.5 rounded-full bg-gradient-to-r from-teal-400 to-teal-600"
-                style={{ width: `${progress}%` }}
-              />
-            </div>
-            <div className="relative" style={{ height: 0 }}>
-              <div
-                className="absolute -top-5 flex items-center justify-center w-8 h-8 rounded-full bg-teal-500 text-white shadow border border-white"
-                style={{ left: `calc(${progress}% - 18px)` }}
-              >
-                <FiTruck />
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Clear Cart */}
         <div className="px-5 sm:px-6 py-3 flex justify-end">
-          <button
-            onClick={clearCart}
-            className="text-teal-600 hover:text-teal-700 font-semibold"
-          >
+          <button className="text-teal-600 hover:text-teal-700 font-semibold">
             Clear Cart
           </button>
         </div>
 
         {/* Items */}
-        <div className="px-5 sm:px-6 space-y-6 overflow-y-auto max-h-96">
-          {items.length === 0 && (
-            <p className="text-center text-gray-500 py-10">
-              Your cart is empty.
-            </p>
-          )}
-          {items.map((it) => (
+        <div className="px-5 sm:px-6 space-y-6 overflow-y-auto max-h-[60vh]">
+          {cart.map((it) => (
             <div key={it.id} className="pb-6 border-b">
               <div className="flex gap-4">
                 <img
@@ -160,26 +80,23 @@ const AddToCard = ({ isOpen, setIsOpen }) => {
                       <button className="p-2 rounded border hover:bg-gray-50">
                         <FiEdit2 />
                       </button>
-                      <button
-                        onClick={() => removeItem(it.id)}
-                        className="p-2 rounded border hover:bg-gray-50"
-                      >
+                      <button className="p-2 rounded border hover:bg-gray-50">
                         <FiTrash2 />
                       </button>
                     </div>
                   </div>
-                  <p className="text-sm text-gray-600 mt-1">
-                    {it.qty} X ${it.price.toFixed(2)}
-                  </p>
+                  <div>
+                    <span className="text-gray-800">${it.price}</span>
+                  </div>
 
                   {/* Qty Control */}
                   <div className="mt-4">
                     <div className="flex items-center justify-between w-40 border rounded-md px-3 py-2">
-                      <button onClick={() => dec(it.id)} className="p-1">
+                      <button className="p-1">
                         <FiMinus />
                       </button>
-                      <span className="text-gray-800">{it.qty}</span>
-                      <button onClick={() => inc(it.id)} className="p-1">
+                      <span className="text-gray-800">1</span>
+                      <button className="p-1">
                         <FiPlus />
                       </button>
                     </div>
@@ -194,9 +111,7 @@ const AddToCard = ({ isOpen, setIsOpen }) => {
         <div className="mt-auto border-t px-5 sm:px-6 py-5">
           <div className="flex items-center justify-between text-lg">
             <span className="text-gray-800">Sub Total :</span>
-            <span className="font-semibold text-teal-600">
-              ${subTotal.toFixed(2)}
-            </span>
+            <span className="font-semibold text-teal-600">$50.00</span>
           </div>
 
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
