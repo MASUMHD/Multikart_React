@@ -1,17 +1,25 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FiMenu, FiX, FiSearch, FiSettings, FiShoppingCart } from "react-icons/fi";
+import {
+  FiMenu,
+  FiX,
+  FiSearch,
+  FiSettings,
+  FiShoppingCart,
+} from "react-icons/fi";
+import AddToCard from "./AddToCard";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Feature", path: "/feature" },
-    { name: "About", path: "/about" },
     { name: "Product", path: "/products" },
     { name: "Blog", path: "/blogs" },
+    { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
+    { name: "Feature", path: "/feature" },
   ];
 
   return (
@@ -60,7 +68,11 @@ const NavBar = () => {
             <div className="flex items-center space-x-5">
               <FiSearch className="cursor-pointer text-2xl hover:text-teal-500" />
               <FiSettings className="cursor-pointer text-2xl hover:text-teal-500" />
-              <div className="relative hover:text-teal-500 cursor-pointer">
+              {/* Cart Icon */}
+              <div
+                onClick={() => setIsCartOpen(true)}
+                className="relative hover:text-teal-500 cursor-pointer"
+              >
                 <FiShoppingCart className="text-2xl" />
                 <span className="absolute -top-2 -right-2 bg-teal-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
                   2
@@ -86,7 +98,11 @@ const NavBar = () => {
         }`}
       >
         <div className="p-4 flex items-center justify-between border-b">
-          <img src="https://i.postimg.cc/JzKC4WX4/logo.png" alt="Multikart Logo" className="h-8" />
+          <img
+            src="https://i.postimg.cc/JzKC4WX4/logo.png"
+            alt="Multikart Logo"
+            className="h-8"
+          />
           <span
             onClick={() => setIsOpen(false)}
             className="cursor-pointer text-2xl"
@@ -109,6 +125,8 @@ const NavBar = () => {
           ))}
         </nav>
       </div>
+      {/* Cart Drawer */}
+      <AddToCard isOpen={isCartOpen} setIsOpen={setIsCartOpen} />
     </>
   );
 };

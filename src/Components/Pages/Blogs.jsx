@@ -23,8 +23,8 @@ const Blogs = () => {
             <p className="text-gray-600 text-base leading-relaxed">
               Discover insights, guides, and industry updates on innovative
               disposable medical products. From selecting the right gloves to
-              understanding material <br /> quality, our blogs help you make informed
-              decisions for <br /> safer and more efficient healthcare practices.
+              understanding material <br className="hidden md:block" /> quality, our blogs help you make informed
+              decisions for <br className="hidden md:block" /> safer and more efficient healthcare practices.
             </p>
           </div>
         </div>

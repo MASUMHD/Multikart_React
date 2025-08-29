@@ -11,13 +11,13 @@ const Contact = () => {
   };
   return (
     <div className="">
-      <div className="bg-[#e8f7fc] py-12 md:py-20 text-center px-4">
-        <h2 className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 mb-6">
+      <div className="bg-[#e8f7fc] py-12 md:py-16 text-center px-4">
+        <h2 className="text-2xl md:text-4xl  font-bold text-gray-800 mb-4">
           We’re here to assist you!
         </h2>
         <p className="text-gray-700 text-sm md:text-lg max-w-2xl mx-auto">
-          Reach us out for inquiries, support, or feedback, and we’ll <br />{" "}
-          give you prompt response.
+          Reach us out for inquiries, support, or<br className="hidden md:block" /> feedback,  and we’ll give you<br className="hidden md:block" />
+          prompt response.
         </p>
       </div>
       <div className="grid md:grid-cols-2 gap-10 items-center px-4 md:px-12 lg:px-28 py-12 ">

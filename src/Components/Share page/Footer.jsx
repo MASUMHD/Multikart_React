@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="py-12 grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Logo + Description */}
         <div className="grid md:col-span-2">
-          <img src="/Ultikar images/logo.png" alt="Logo" className="h-10 w-44 mb-4 md:mb-0" />
+          <img src="https://i.postimg.cc/JzKC4WX4/logo.png" alt="Logo" className="h-10 w-44 mb-4 md:mb-0" />
           <p className="text-gray-400 text-base mb-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing <br />
             elit, sed do eiusmod tempor incididunt ut labore et <br />
