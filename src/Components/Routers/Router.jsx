@@ -9,6 +9,7 @@ import ProductDetails from "../Share page/ProductDetails";
 import Blogs from "../Pages/Blogs";
 import BlogDetails from "../Share page/BlogDetails";
 import Contact from "../Pages/Contact";
+import About from "../Pages/About";
 
 export const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/about",
+        element: <About />
       }
     ]
   },
