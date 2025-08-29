@@ -1,7 +1,15 @@
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
-const ProductCard = ({ product }) => {   
+const ProductCard = ({ product }) => {
+  const handleClick = () => {
+    Swal.fire({
+      title: "Success!",
+      icon: "success",
+      draggable: true,
+    });
+  };
   return (
     <div className="border hover:shadow-lg transition duration-300 p-4 relative  ">
       {/* Discount Badge */}
@@ -32,9 +40,7 @@ const ProductCard = ({ product }) => {
         {Array.from({ length: product.rating }).map((_, i) => (
           <FaStar key={i} />
         ))}
-        <span className="text-gray-500 text-sm ml-1">
-          ({product.reviews})
-        </span>
+        <span className="text-gray-500 text-sm ml-1">({product.reviews})</span>
       </div>
 
       {/* Price */}
@@ -48,7 +54,10 @@ const ProductCard = ({ product }) => {
       </div>
 
       {/* Add to Cart */}
-      <button className="w-full mt-3 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 transition">
+      <button
+        onClick={handleClick}
+        className="w-full mt-3 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 transition"
+      >
         Add to cart
       </button>
     </div>
