@@ -35,8 +35,7 @@ const Slider = () => {
   return (
     <div className="w-full">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        navigation
+        modules={[ Pagination, Autoplay]}
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         loop={true}
